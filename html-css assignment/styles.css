@@ -1,0 +1,170 @@
+/* General styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f8ff; /* Lighter background */
+    color: #333;
+    padding: 20px;
+}
+
+/* Header styles */
+header {
+    background-color: #1E90FF; /* Bright blue */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    color: #FFD700; /* Gold on hover */
+}
+
+/* Main section styles */
+main {
+    margin-top: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+section h2 {
+    margin-bottom: 15px;
+    font-size: 24px;
+    color: #1E90FF; /* Matching section titles with header */
+}
+
+/* About section */
+#about p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+#about img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #1E90FF; /* Matching blue border for images */
+}
+
+/* Services section */
+ul {
+    list-style-type: square;
+    margin-left: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+/* Table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+table th {
+    background-color: #FFA500; /* Bright orange for table headers */
+    color: white;
+}
+
+table td {
+    background-color: #FFFACD; /* Light yellow for table cells */
+}
+
+table caption {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Contact form styles */
+form {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #1E90FF; /* Blue labels */
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #32CD32; /* Bright green for the submit button */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+input[type="submit"]:hover {
+    background-color: #228B22; /* Darker green on hover */
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+footer a {
+    color: #FFA500; /* Bright orange links in the footer */
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: #FFD700; /* Gold on hover */
+}

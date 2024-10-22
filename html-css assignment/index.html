@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A basic HTML structure using common tags and attributes">
+    <meta name="keywords" content="HTML, basic, example, tags, attributes">
+    <title>Basic HTML Example</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header section with navigation -->
+    <header>
+        <h1>Welcome to My Website</h1>
+        <nav>
+            <ul>
+                <li><a href="#about" title="Learn more about us">About</a></li>
+                <li><a href="#services" title="Check our services">Services</a></li>
+                <li><a href="#contact" title="Get in touch with us">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main content section -->
+    <main>
+        <section id="about">
+            <h2>About Us</h2>
+            <p>This website is designed to demonstrate common HTML tags and attributes.</p>
+            <img src="html-css.jpg" alt="HTML and CSS" width="400" height="300">
+
+        </section>
+
+        <section id="services">
+            <h2>Our Services</h2>
+            <ul>
+                <li><strong>Web Design:</strong> We create stunning websites.</li>
+                <li><strong>SEO:</strong> We optimize your site for search engines.</li>
+                <li><strong>Consulting:</strong> Expert advice for your business.</li>
+            </ul>
+            <table>
+                <caption>Service Pricing</caption>
+                <thead>
+                    <tr>
+                        <th>Service</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Web Design</td>
+                        <td>$1000</td>
+                    </tr>
+                    <tr>
+                        <td>SEO</td>
+                        <td>$500</td>
+                    </tr>
+                    <tr>
+                        <td>Consulting</td>
+                        <td>$300</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <!-- Contact section with a form -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="/submit-form" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required placeholder="Your name">
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required placeholder="Your email">
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" placeholder="Your message"></textarea>
+            
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+    <!-- Footer section -->
+    <footer>
+        <p>&copy; 2024 My Website. All rights reserved.</p>
+        <address>
+            Contact us at <a href="mailto:info@mywebsite.com">info@mywebsite.com</a>
+        </address>
+    </footer>
+
+</body>
+</html>
